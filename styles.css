@@ -1,0 +1,45 @@
+body {
+    background-color: #A59D84;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.container {
+    /* border: solid black; */
+    display: inline-grid;
+    gap: 20px;
+    height: 300px;
+    width: 300px
+}
+
+button {
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+#greenButton {
+    background-color: green;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#redButton {
+    background-color: red;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#yellowButton {
+    background-color: yellow;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#blueButton {
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 2;
+}
